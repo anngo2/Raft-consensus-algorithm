@@ -1,8 +1,8 @@
 # Raft-consensus-algorithm
 
-Raft ensures that a cluster of servers can work together as a single coherent system. The algorithm selects a leader through timed elections and voting among the servers in the cluster. The elected leader is responsible for managing log replication and maintaining consistency across all servers. 
+Raft is a distributed consensus algorithm. Raft.go is the full implementation of Raft (https://raft.github.io/raft.pdf). The algorithm effectively selects leaders through timed elections and voting. It is able to handle all of the failure senarios listed in the paper using log replication.
 
-The core components of the Raft algorithm include:
+The core components of the Raft algorithm includes:
 
 **Leader Election:** When no leader is present, or the current leader fails, servers elect a new leader through a majority vote.
 
