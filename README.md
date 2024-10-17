@@ -5,7 +5,9 @@ Raft ensures that a cluster of servers can work together as a single coherent sy
 The core components of the Raft algorithm include:
 
 **Leader Election:** When no leader is present, or the current leader fails, servers elect a new leader through a majority vote.
+
 **Log Replication:** The leader handles log replication by sending appendEntries requests to follower servers.
+
 **Fault Tolerance:** Raft ensures fault tolerance through state persistence, commit rules, and recovery mechanisms, allowing the system to continue operating even if servers fail.
 
 
