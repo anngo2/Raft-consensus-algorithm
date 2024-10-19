@@ -1,6 +1,6 @@
 # Raft-consensus-algorithm
 
-Raft is a distributed consensus algorithm. Raft.go is the full implementation of Raft (https://raft.github.io/raft.pdf). The algorithm effectively selects leaders through timed elections and voting. It is able to handle all of the failure senarios listed in the paper using log replication.
+Raft is a distributed consensus algorithm. Raft.go is the full implementation of <a href="https://raft.github.io/raft.pdf">Raft</a>. The algorithm effectively selects leaders through timed elections and voting. It is able to handle all of the failure senarios listed in the paper using log replication.
 
 The core components of the Raft algorithm includes:
 
